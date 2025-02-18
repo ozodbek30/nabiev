@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1220px;
+    margin: 0px auto;
+}
+body{
+    background: #F5F5F5;
+
+
+}
+header .container{
+    display: flex;
+    width: 1440px;
+    height: 140px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    display: flex;
+    gap: 20px;
+}
+header{
+border-bottom: 2px solid #DEDBDB;
+}
+main{
+padding: 46px 0;
+background: #FAFAFA;
+}
+.box2{
+    width: 740px;
+    height: 820px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    margin: 0px auto;
+}
+.box-top{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 30px;
+    justify-content: space-between;
+
+}
+.div{
+    display: flex;
+    gap: 10px;
+    padding-right: 30px;
+    color: #F0400F;
+}
+.box2 h1{
+color: #0E0D5D;
+margin-top: 132px;
+font-weight: 700;
+font-size: 48px;
+line-height: 58.09px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.parent{
+    width: 533px;
+    height: 70px;
+    background: #F5F5F5;
+border-radius: 20px;
+padding: 8px 11px;
+display: flex;
+align-items: center;
+gap: 42px;
+margin: 0px auto;
+margin-top: 59px;
+}
+.parent span{
+ padding: 10px 40px;
+font-weight: 500;
+font-size: 28px;
+line-height: 33.89px;
+letter-spacing: 0%;
+background-color: white;
+border-radius: 20px;
+}
+.parent p{
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33.89px;
+    letter-spacing: 0%;
+    color: #757575;
+   
+}
+input{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background: #FAFAFA;
+  padding: 20px 51px;
+font-weight: 500;
+font-size: 24px;
+line-height: 29.05px;
+margin-top: 40px;
+outline: none;
+border: 1px solid #75757530;
+margin-left: 103px;
+}
+.eye{
+    margin-left: -70px;
+    margin-bottom: -5px;
+   
+}
+.box2 h4{
+
+font-weight: 500;
+font-size: 24px;
+line-height: 29.05px;
+color: #000000A3;
+padding-top: 18px;
+text-align: center;
+}
+
+.btn{
+   padding: 17px 23px;
+font-weight: 700;
+font-size: 24px;
+line-height: 29.05px;
+color: white;
+background: #F69E86;
+border-radius: 20px;
+border: none;
+margin-top: 30px;
+margin-left: 480px;
+}
